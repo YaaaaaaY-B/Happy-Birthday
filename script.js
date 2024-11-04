@@ -1,5 +1,5 @@
 // Set the date for the countdown (adjust to match the desired birthday date)
-const countdownDate = new Date("November 4, 2024 00:00:00").getTime();
+const countdownDate = new Date("November 5, 2024 00:00:00").getTime();
 let countdownOver = false;
 
 // Countdown function
