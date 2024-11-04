@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday! || Saachi</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Confetti Canvas -->
+    <canvas id="confettiCanvas"></canvas>
+
+    <div class="container">
+        <h1 class="heading">Happy Birthday!</h1>
+        <p class="subheading">Countdown Yes 😏</p>
+
+        <!-- Countdown Timer -->
+        <div id="countdown">00:00:00</div>
+        
+        <!-- Open Surprise Button (hidden initially) -->
+        <button id="surpriseButton" class="surprise-btn" style="display: none;">Oh gift </button>
+
+        <!-- Digital Gift Box for Unwrapping -->
+        <div class="gift-box" id="giftBox" style="display: none;">
+            <div class="box"></div>
+            <div class="lid"></div>
+        </div>
+               
+
+        <!-- Letter Reveal -->
+        <div id="letterContent" class="letter" style="display: none;">
+            <h2>😏</h2>
+            <p>Happy Birthday, my love You mean the world to me and I am so grateful for every moment we share.</p>
+            <div class="photos">
+                <img src="photo1.jpg" alt="Photo 1">
+                <img src="photo2.jpg" alt="Photo 2">
+                <img src="photo3.jpg" alt="Photo 3">
+            </div>
+        </div>
+
+        <!-- Background Music -->
+        <audio id="backgroundMusic" src="your-song.mp3" preload="auto"></audio>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
